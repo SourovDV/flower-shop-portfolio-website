@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap');
+*{
+    font-family: 'Merriweather', serif;
+}
+.container {
+    display: flex;
+    width: 81%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 9, 19, 0.1);
+    padding: 0px 240px;
+
+
+}
+
+.container .container-title .container-text {
+   
+}
+
+.container-title {
+    max-width: 45%;
+}
+
+.container-title .sourov {
+    color: rgb(45, 12, 12);
+}
+
+.container .container-title {
+    padding-left: 80px;
+
+}
+
+.container-title .image {
+    width: auto;
+
+}
+
+.container .container-title .sourov {
+    font-size: 50px;
+
+}
+
+.container .container-title .radha {
+    font-size: 30px;
+}
+
+.btn-primary {
+    color: white;
+    padding: 15px 25px;
+    background-color: tomato;
+    border-radius: 10px;
+    font-size: 22px;
+
+}
+
+.btn-primary:hover {
+    background: linear-gradient(red, green);
+    border: 6px inset rgb(242, 9, 106);
+}
+
+/* banner */
+.banner-text {
+    max-width: 50%;
+    margin: 20px auto;
+
+
+
+}
+
+.flower {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    gap: 40px;
+    padding: 30px 20px 20px 30px;
+    margin-left: 10%;
+
+
+}
+
+.banner-text h1 {
+    font-size: 50px;
+    text-align: center;
+
+}
+
+.banner-text p {
+    font-size: 30px;
+
+}
+
+.container-flower-pic {
+    background-color: rgba(85, 190, 150, 0.641);
+    display: flex;
+    width: 314px;
+    border-radius: 300px 300px 0px 0px;
+
+
+}
+
+.container-flower-pic1 {
+    background-color: rgba(176, 43, 71, 0.1);
+    display: flex;
+    width: 314px;
+    border-radius: 300px 300px 0px 0px;
+
+
+}
+
+.container-flower-pic2 {
+    background-color: rgba(66, 184, 210, 0.1);
+    display: flex;
+    border-radius: 300px 300px 0px 0px;
+    width: 314px;
+
+
+
+}
+
+
+.mama {
+    margin: 30px auto;
+    margin-top: 100px;
+    text-align: center;
+    background-color: rgb(254, 253, 253);
+    width: 790px;
+
+}
+
+.header-hand {
+    display: flex;
+    margin-top: 90px;
+    justify-content: space-around;
+    padding-left : 5%;
+    
+    padding:70px 0px;
+    background-color: rgb(216, 197, 197);
+     
+}
+.hand-text{
+    margin:0px 30px
+}
+.hot-header{
+    display: flex;
+    justify-content: space-between;
+    padding:30px;
+    width: 85%;
+    max-width: 76%;
+    margin:90px auto;
+    background-color:rgba(229, 84, 115, 0.05);
+
+}
+.hot-dial{
+    width: 45%;
+    max-width: 46%;
+}
+.price:hover{
+    border-radius: 20px;
+    padding: 0px 50px;
+}
+.hot-dial .hot-title {
+    font-size: 50px;
+}
+.hot-dial .hot-text{
+    font-size:30px;
+}
+.price-header{
+    display: flex;
+    justify-content: space-around;
+    margin : 10%;
+  
+}
+.latest{
+    width: 80%;
+    background-image: url(../picture/Rectangle\ 9.png);
+    margin:10px auto;
+}
+.latest {
+        font-size: 40px;
+        text-align: center;
+        padding: 20px;
+    
+    }
+    
+ .latest p {
+        font-size: 30px;
+        text-align: center;
+    }
+    
+ #sourov{
+    padding: 10px;
+    font-size: 20px;
+ }
+ .footer{
+    background-color:#111010; 
+    width: 83%;
+    margin:70px auto;
+   height: 500px;
+   color:white;
+   text-align: center;
+    padding-top:200px
+   
+
+ }
+ .footer h1{
+    font-size: 50px;
+ 
+ }
+ .footer h3{
+    max-width: 50%;
+    font-size: 40px;
+    margin: 5px auto;
+ }
+ .footer p{
+    font-size: 19px;
+ }
+ span{
+    color:crimson;
+ }
